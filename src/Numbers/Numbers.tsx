@@ -7,7 +7,7 @@ interface NumbersProps {
 const Numbers: React.FC<NumbersProps> = props => {
   return (
     <div className="numbers-balls">
-      <p>{props.number}</p>
+      <div className='number'>{props.number}</div>
     </div>
   );
 };
