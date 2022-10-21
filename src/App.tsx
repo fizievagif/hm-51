@@ -19,7 +19,7 @@ function App() {
       {number: Math.floor(Math.random() * (36 - 5 + 1)) + 5},
       {number: Math.floor(Math.random() * (36 - 5 + 1)) + 5},
       {number: Math.floor(Math.random() * (36 - 5 + 1)) + 5},
-    ])
+    ]);
   };
 
   number.sort((a, b) => {
